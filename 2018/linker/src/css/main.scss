@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #001;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.header {
+  min-width: 300px;
+
+  .logo {
+    float: left;
+    margin: 42px 0 0 10%;
+    display: inline-block;
+
+    img {
+      width: 115px;
+      height: 42px;
+    }
+
+    cursor: pointer;
+  }
+}
+
+.header:after {
+  content: " ";
+  display: block;
+  clear: both
+}
+
+.highlighting {
+  position: absolute;
+  top: 14px;
+  left: calc(100% - 115px);
+  height: 18px;
+  width: 0;
+  z-index: -1;
+  transition: width 0.4s;
+  background-color: #e99191;
+}
+
+::-webkit-scrollbar-button {
+  background-repeat: no-repeat;
+  width: 0;
+  height: 0;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000011;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: grey;
+}
+
+::-webkit-resizer {
+  background-repeat: no-repeat;
+  width: 4px;
+  height: 0;
+}
+
+::-webkit-scrollbar {
+  width: 18px;
+}
+
+@media all and (max-width: 900px) {
+  ::-webkit-scrollbar {
+    width: 9px;
+  }
+}
+
+@media all and (max-width: 960px) and (orientation: landscape) {
+  ::-webkit-scrollbar {
+    width: 9px;
+  }
+}

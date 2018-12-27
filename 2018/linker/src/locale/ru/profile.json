@@ -1,0 +1,10 @@
+{
+  "txtSuccessfulChangePassword": "Пароль успешно изменён",
+  "txtFailChangePassword": "Пароль не изменён",
+  "txtTitle": "Настройка пароля",
+  "txtCurrentPassword": "Старый пароль",
+  "txtNewPasswordFirst": "Новый пароль",
+  "txtNewPasswordSecond": "Новый пароль ещё раз",
+  "txtChangePassword": "Сменить пароль",
+  "txtLogout": "Выйти"
+}

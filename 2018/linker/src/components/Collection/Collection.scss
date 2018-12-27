@@ -1,0 +1,120 @@
+.collection {
+  padding: 0 0 29px 0;
+
+  .collection-header {
+    color: white;
+    background-color: #e99191;
+    margin: -3px 0 0 calc(10% + 115px);
+    width: calc(80% - 228px);
+    padding: 29px;
+
+    h1 {
+      font-size: 36px;
+      font-weight: bold;
+      line-height: 1.19;
+      color: white;
+      word-break: break-all;
+    }
+
+    p {
+      margin: 15px 0 0 0;
+      font-size: 20px;
+      line-height: 1.4;
+      color: #ffffff;
+      word-break: break-all;
+    }
+  }
+
+  .url-content {
+    background-color: white;
+    padding: 0;
+    width: calc(80% - 170px);
+    margin: 29px 0 0 calc(10% + 115px);
+
+    h2 {
+      padding: 10px 10px 0 10px;
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 1.2;
+      color: #000011;
+      word-break: break-all;
+    }
+
+    a:nth-child(2) {
+      padding: 10px 10px 0 10px;
+      font-size: 15px;
+      line-height: 1.87;
+      color: #e99191;
+    }
+
+    p {
+      padding: 0 10px 10px 10px;
+      font-size: 20px;
+      line-height: 1.4;
+      color: #000011;
+      word-break: break-all;
+    }
+
+    img {
+      width: 100%;
+      margin: 0 auto -5px;
+    }
+
+    img[src="resources/images/loading.svg"] {
+      width: 200px;
+      margin: 0 0 15px calc(40% - 35px);
+    }
+  }
+}
+
+@media all and (max-width: 900px) {
+  .collection {
+    width: 100vw;
+
+    .collection-header {
+      width: 90vw;
+      padding: 10px;
+      margin: -3px 5vw;
+      box-sizing: border-box;
+
+      h1 {
+        font-size: 24px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .url-content {
+      width: 90vw;
+      padding: 0;
+      margin: 29px 0 0 5vw;
+
+      h2 {
+        padding: 10px 10px 0 10px;
+        font-size: 20px;
+      }
+
+      a:nth-child(2) {
+        padding: 0 10px;
+        font-size: 15px;
+      }
+
+      p {
+        padding: 0 10px;
+        font-size: 16px;
+      }
+
+      img {
+        width: 100%;
+        margin: 10px auto -5px auto;
+      }
+
+      img[src="resources/images/loading.svg"] {
+        width: 200px;
+        margin: 15px 0 15px calc(45vw - 100px);
+      }
+    }
+  }
+}

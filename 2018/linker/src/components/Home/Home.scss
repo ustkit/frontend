@@ -1,0 +1,143 @@
+.home {
+  .header {
+    .log-in {
+      position: relative;
+      float: right;
+      margin: 51px 10% 0 0;
+      display: inline-block;
+      width: 115px;
+      height: 24px;
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 1.2;
+      text-align: right;
+      color: #ffffff;
+      cursor: pointer;
+      span > img {
+        position: absolute;
+        left: 9px;
+        top: 16px;
+      }
+    }
+    .log-in:hover .highlighting {
+      width: 115px;
+    }
+  }
+
+  .content {
+    position: relative;
+    height: calc(100vh - 146px);
+    .sphere {
+      position: absolute;
+      width: 368px;
+      top: 15px;
+      left: calc(50% - 184px);
+      z-index: -1;
+    }
+    .text-block {
+      padding: 260px 0 0 calc(50% - 380px);
+      color: #ffffff;
+      .about {
+        width: 588px;
+        font-size: 20px;
+        line-height: 1.4;
+      }
+      .title {
+        margin: 20px 0 0 0;
+        width: 800px;
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 1.19;
+      }
+    }
+  }
+
+  @media all and (max-width: 900px) {
+    .content {
+      .text-block {
+        padding: calc(100vh - 440px) 10px 0 60px;
+        .about {
+          font-size: 14px;
+          width: 95%;
+        }
+        .title {
+          font-size: 24px;
+          width: 95%;
+        }
+      }
+    }
+  }
+
+  @media all and (max-width: 960px) and (orientation: landscape) {
+    .content {
+      .text-block {
+        padding: 5% 10px 0 60px;
+        .about {
+          font-size: 14px;
+          width: 95%;
+        }
+        .title {
+          margin: 10px 0 0 0;
+          font-size: 24px;
+          width: 95%;
+        }
+      }
+    }
+  }
+
+  .content:after {
+    content: " ";
+    display: block;
+    clear: both
+  }
+
+  .footer {
+    min-width: 300px;
+    height: 42px;
+    .info {
+      position: relative;
+      float: left;
+      margin: 0 0 0 10%;
+      width: 115px;
+      height: 24px;
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 1.2;
+      color: #ffffff;
+      cursor: pointer;
+      text-align: right;
+    }
+    .info:hover .highlighting {
+      width: 115px;
+    }
+    span > img {
+      position: absolute;
+      left: 9px;
+      top: 16px;
+    }
+    .demo-collection {
+      position: relative;
+      float: right;
+      margin: 0 10% 0 0;
+      width: 115px;
+      height: 24px;
+      a {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1.2;
+        color: #ffffff;
+      }
+      cursor: pointer;
+      text-align: right;
+    }
+    .demo-collection:hover .highlighting {
+      width: 115px;
+    }
+  }
+
+  .footer:after {
+    content: " ";
+    display: block;
+    clear: both
+  }
+}

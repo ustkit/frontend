@@ -1,0 +1,118 @@
+.enter-modal {
+  position: absolute;
+  z-index: 1;
+  top: -3px;
+  left: calc(10% + 115px);
+  width: calc(80% - 210px);
+  text-align: left;
+  background-color: #001;
+  overflow-y: scroll;
+
+  .enter-section {
+    float: left;
+  }
+
+  .registration-section {
+    float: right;
+  }
+
+  .enter-section, .registration-section {
+    position: relative;
+    width: 49%;
+    padding: 16px 20px;
+    box-sizing: border-box;
+    background-color: #e99191;
+    height: calc(100vh - 150px);
+    max-height: 500px;
+    .title-block {
+      font-size: 30px;
+      font-weight: bold;
+      line-height: 1.19;
+      text-align: left;
+      color: #ffffff;
+    }
+    .input-blocks {
+      margin: 16px 0 0 0;
+      .error-message {
+        color: #ffffff;
+        font-size: 16px;
+        padding-left: 10px;
+        overflow-wrap: break-word;
+      }
+    }
+    input {
+      display: block;
+      height: 47px;
+      width: 100%;
+      border: 2px white solid;
+      margin: 0 0 20px 0;
+      padding: 12px 14px;
+      background-color: #e99191;
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      line-height: 1.4;
+      color: #ffffff;
+      outline: none;
+      box-sizing: border-box;
+    }
+    input::placeholder {
+      color: white;
+    }
+    button {
+      position: absolute;
+      left: 20px;
+      bottom: 20px;
+      display: block;
+      width: calc(100% - 40px);
+      height: 46px;
+      background-color: #fff;
+      border: none;
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 1.4;
+      color: #e99191;
+      outline: none;
+      cursor: pointer;
+      letter-spacing: normal;
+    }
+  }
+}
+
+@media all and (max-width: 900px) {
+  .enter-modal {
+    top: 3px;
+    left: 5%;
+    width: 90%;
+    .enter-section, .registration-section {
+      float: left;
+      width: 100%;
+      height: 80vh;
+    }
+    .registration-section {
+      margin: 10px 0 0 0;
+    }
+  }
+}
+
+@media all and (max-width: 960px) and (orientation: landscape) {
+  .enter-modal {
+    top: 3px;
+    left: 5%;
+    width: 90%;
+    .enter-section, .registration-section  {
+      float: left;
+      width: 100%;
+      height: 115vh;
+    }
+    .registration-section {
+      margin: 10px 0 0 0;
+    }
+  }
+}
+
+.enter-modal:after {
+  content: " ";
+  display: block;
+  clear: both
+}

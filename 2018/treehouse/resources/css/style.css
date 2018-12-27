@@ -1,0 +1,986 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.menu {
+    padding: 43px 230px 38px;
+}
+
+.menu a img {
+    float: left;
+}
+
+.menu nav {
+    float: right;
+}
+
+.menu nav ul {
+    list-style-type: none;
+}
+
+.menu nav ul li {
+    display: inline-block;
+    margin-left: 29px;
+}
+
+.menu nav ul li a {
+    color: #777;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 34px;
+    text-transform: uppercase;
+    transition: all 0.6s ease-in-out;
+}
+
+@media (hover: hover) {
+    .menu nav ul li a:hover {
+        color: red;
+    }
+}
+
+.menu:after { content: " "; display: block; clear: both }
+
+.about {
+    padding: 107px 0 120px 0;
+    background-image: url(../images/about-bg.jpg);
+    background-color: rgba(0, 0, 0, 0.75);
+    background-blend-mode: color-burn;
+    text-align: center;
+}
+
+.about header h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 68px;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+}
+
+.about p {
+    font-family: 'Roboto Slab', serif;
+    color: #ccc;
+    font-size: 19px;
+    font-weight: 400;
+    margin: 25px 0 0 0;
+}
+
+.about a {
+    display: inline-block;
+    background-color: #7cc576;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    outline: none;
+    margin: 56px 0 0 0;
+    transition: all 0.6s ease-in-out 0s;
+}
+
+@media (hover: hover) {
+    .about a:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        background-color: #900;
+    }
+}
+
+.services {
+    padding: 90px 0 21px 0;
+    text-align: center;
+}
+
+.services .service-container {
+    display: inline-block;
+    padding: 86px 0 77px 0;
+}
+
+.services .service-container .service {
+    float: left;
+    width: 274px;
+    text-align: center;
+    margin: 0 28px;
+}
+
+.services header h2 {
+    color: #222;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -2.5px;
+}
+
+.services header h3 {
+    font-family: 'Roboto Slab', serif;
+    color: #777;
+    font-size: 19px;
+    font-weight: 400;
+    margin: 6px 0 0 0;
+}
+
+.services .service-container .service .service-img svg {
+    width: 54px;
+    height: 48px;
+    transition: all 0.6s ease-in-out 0s;
+}
+
+@media (hover: hover) {
+    .services .service-container .service:hover .service-img svg {
+        fill: red;
+        transform: scale(1.5) rotate(360deg);
+    }
+}
+
+.services .service-container .service h4 {
+    color: #222;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: -0.7px;
+    margin: 33px 0 0 0;
+}
+
+.services .service-container .service p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    color: #777;
+    font-weight: 400;
+    line-height: 21px;
+    margin: 8px 0 0 0;
+}
+
+.service-container:after { content: " "; display: block; clear: both }
+
+.relax{
+    background-color:  #e9e9e9;
+    background-image: url(../images/relax-gear.png);
+    background-repeat: no-repeat;
+    background-position: 236px 100px;
+}
+.relax .relax-content {
+    float: right;
+    background-image: url(../images/relax-bg.png);
+    background-color: rgba(0, 0, 0, 0.75);
+    background-blend-mode: color-burn;
+    padding: 91px 222px 101px 100px;
+}
+
+.relax .relax-content header h2 {
+    color:  #fff;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.relax .relax-content header h2 span {
+    color:  #7cc576;
+}
+
+.relax .relax-content p {
+    font-family: 'Roboto Slab', serif;
+    color: #ccc;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 36px 0 0 0;
+}
+
+.relax .relax-content ul {
+    list-style-type: none;
+    margin: 38px 0 0 0;
+}
+
+.relax .relax-content li {
+    background: url(../images/check-mark.png) no-repeat left 7px;
+    font-family: 'Roboto Slab', serif;
+    color: #cccccc;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 41px;
+    padding: 0 0 0 51px;
+}
+
+.relax a {
+    background-color: #7cc576;
+    width: 168px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    outline: none;
+    margin: 48px 0 0 0;
+    transition: all 0.6s ease-in-out 0s;
+    display: inline-block;
+    text-align: center;
+}
+
+@media (hover: hover) {
+    .relax a:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        background-color: #900;
+    }
+}
+
+.relax:after { content: " "; display: block; clear: both }
+
+.last-project {
+    padding: 89px 0 0 0;
+    text-align: center;
+}
+
+.last-project header h2 {
+    color: #222;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+}
+
+.last-project header h3 {
+    font-family: 'Roboto Slab', serif;
+    color: #777;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0 0 0;
+}
+
+.last-project .last-project-container {
+    padding: 66px 0 0 228px;
+}
+
+.last-project .last-project-container .last-project-description {
+    float: left;
+    width: 479px;
+    text-align: left;
+}
+
+.last-project .last-project-container .last-project-description h4 {
+    color: #222;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 15px 0 0 0;
+    letter-spacing: -0.9px;
+
+}
+
+.last-project .last-project-container .last-project-description h4+p,
+.last-project .last-project-container .last-project-description ul+p {
+    font-family: 'Roboto Slab', serif;
+    color: #777;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.last-project .last-project-container .last-project-description h4+p {
+    margin: 17px 0 0 0;
+}
+
+.last-project .last-project-container .last-project-description ul {
+    list-style-type: none;
+    margin: 21px 0 0 0;
+}
+
+.last-project .last-project-container .last-project-description ul li{
+    padding: 16px 0 29px 91px;
+}
+
+.last-project .last-project-container .last-project-description ul li strong {
+    color: #222;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.last-project .last-project-container .last-project-description ul li p {
+    font-family: 'Roboto Slab', serif;
+    color: #777;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.last-project .last-project-container .last-project-description ul li:nth-child(1) {
+    background: url(../images/icon-basket.png) no-repeat left top;
+}
+
+.last-project .last-project-container .last-project-description ul li:nth-child(2) {
+    background: url(../images/icon-laptop.png) no-repeat left top;
+}
+
+.last-project .last-project-container .last-project-description ul li:nth-child(3) {
+    background: url(../images/icon-locked.png) no-repeat left top;
+}
+
+.last-project .last-project-container .last-project-description a {
+    display: block;
+    color: #7cc576;
+    fill: #7cc576;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    margin: 21px 0 0 0;
+    text-transform: uppercase;
+    letter-spacing: -0.6px;
+}
+
+@media (hover: hover) {
+    .last-project .last-project-container .last-project-description a:hover {
+        color: red;
+        fill: red;
+    }
+}
+
+.last-project .last-project-container .last-project-description a svg {
+    width: 15px;
+    height: 12px;
+}
+
+.last-project .last-project-container .last-project-img {
+    float: right;
+}
+
+.last-project-container:after { content: " "; display: block; clear: both }
+
+.culture-and-values {
+    padding: 75px 0 0 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.culture-and-values .culture-and-values-container {
+    display: inline-block;
+    padding: 88px 0 77px 0;
+    position: relative;
+}
+
+.culture-and-values .culture-and-values-container .culture-and-value {
+    float: left;
+    width: 274px;
+    text-align: center;
+    margin: 0 28px;
+}
+
+.culture-and-values header h2 {
+    color: #222;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -2.5px;
+}
+
+.culture-and-values header h3 {
+    font-family: 'Roboto Slab', serif;
+    color: #777;
+    font-size: 19px;
+    font-weight: 400;
+    margin: 6px 0 0 0;
+}
+
+.culture-and-values .culture-and-values-container .culture-and-value .culture-and-value-img svg {
+    width: 85px;
+    height: 85px;
+    fill: #777;
+    stroke: #777;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+@media (hover: hover) {
+    .culture-and-values .culture-and-values-container .culture-and-value:hover .culture-and-value-img svg {
+        fill: red;
+        stroke: red;
+        transform: scale(1.4) rotate(360deg);
+    }
+}
+
+.culture-and-values .culture-and-values-container .culture-and-value h4 {
+    color: #222;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: -0.7px;
+    margin: 21px 0 0 0;
+}
+
+.culture-and-values .culture-and-values-container .culture-and-value p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    color: #777;
+    font-weight: 400;
+    line-height: 21px;
+    margin: 10px 0 0 0;
+}
+
+.culture-and-values .culture-and-values-container .cross-line-left {
+    border: 1px solid #777;
+    width: 167px;
+    position: absolute;
+    top: 130px;
+    left: 246px;
+}
+
+.culture-and-values .culture-and-values-container .cross-line-right {
+    border: 1px solid #777;
+    width: 167px;
+    position: absolute;
+    top: 130px;
+    left: 575px;
+}
+
+.culture-and-values-container:after { content: " "; display: block; clear: both }
+
+.clients {
+    padding: 106px 0 0 0;
+    text-align: center;
+}
+
+.clients .clients-container {
+    display: inline-block;
+    padding: 85px 0 41px 0;
+}
+
+.clients header h2 {
+    color: #222;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -2.5px;
+}
+
+.clients header h3 {
+    font-family: 'Roboto Slab', serif;
+    color: #777;
+    font-size: 21px;
+    font-weight: 400;
+    margin: 4px 0 0 0;
+    letter-spacing: 0.5px;
+}
+
+.clients .clients-container .client .client-image {
+    width: 221px;
+    height: 221px;
+
+}
+.clients .clients-container .client {
+    margin: 0 0 34px 0;
+    width: 944px;
+}
+.clients .clients-container .client .arrow {
+    margin-top: 103px;
+    width: 0;
+    height: 0;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    background-color: transparent;
+}
+.clients .clients-container .client .client-comment  {
+    background-color: #f9f9f9;
+}
+.clients .clients-container .client .client-comment p:nth-child(1) {
+    font-family: 'Roboto Slab', serif;
+    color: #777777;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.clients .clients-container .client .client-comment p:nth-child(2) {
+    font-family: 'Roboto Slab', serif;
+    color: #7cc576;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 51px;
+}
+
+.clients .clients-container .client:nth-child(1) .client-image {
+    float: left;
+}
+
+.clients .clients-container .client:nth-child(1) .arrow {
+    float: left;
+    border-right: 14px solid #f9f9f9;
+    margin-left: 39px;
+}
+
+.clients .clients-container .client:nth-child(1) .client-comment {
+    float: left;
+    padding: 40px;
+    margin: 30px 0 0 0;
+}
+
+.clients .clients-container .client:nth-child(2) .client-image {
+    float: right;
+}
+
+.clients .clients-container .client:nth-child(2) .arrow {
+    float: right;
+    border-left: 14px solid #f9f9f9;
+    margin-right: 50px;
+}
+
+.clients .clients-container .client:nth-child(2) .client-comment {
+    float: right;
+    padding: 40px;
+    margin: 30px 0 0 0;
+}
+
+.clients .clients-container .client:after { content: " "; display: block; clear: both }
+
+.contact-us {
+    padding: 62px 210px 68px;
+    text-align: center;
+    background-color: #7cc576;
+}
+
+.contact-us header h2 {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contact-us a {
+    display: inline-block;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #ffffff;
+    background-color: #7cc576;
+    width: 174px;
+    height: 47px;
+    border-radius: 8px;
+    margin: 23px 0 0 0;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 49px;
+    text-transform: uppercase;
+    transition: all 0.6s ease-in-out 0s;
+}
+@media (hover: hover) {
+    .contact-us a:hover {
+        transform: scale(1.1);
+        background-color: #900;
+    }
+}
+
+.sponsors {
+    padding: 61px 0;
+    text-align: center;
+}
+
+.sponsors a img {
+    margin: 0 18px;
+    vertical-align: middle;
+    transition: all 0.6s ease-in-out 0s;
+}
+
+@media (hover: hover) {
+    .sponsors a img:hover {
+        transform: scale(1.1);
+    }
+}
+
+.other-info {
+    padding: 43px 256px 34px 231px;
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+}
+
+.other-info section header h2 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 15px 0 23px 0;
+    text-align: left;
+}
+.other-info section div p,
+.other-info section div a {
+    float: left;
+    font-family: 'Roboto Slab', serif;
+    color:  #ececec;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 0 20px 14px;
+}
+.latest-tweets div a .hashtag {
+    font-weight: 700;
+}
+
+.latest-tweets div a .age {
+    font-size: 12px;
+    font-weight: 400;
+}
+.other-info section div img {
+    float: left;
+    margin: 0 0 16px 0;
+}
+.other-info section div:after { content: " "; display: block; clear: both }
+
+footer {
+    display: inline-block;
+    padding: 26px 0 31px 230px;
+}
+
+footer small {
+    margin-right: 107px;
+    color: #555555;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+footer .social-net {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    border-radius: 21px;
+    background-color: black;
+    margin: 0 4px 4px 0;
+    transition: 600ms;
+    font-family: "FontAwesome";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 43px;
+    color: white;
+    text-align: center;
+}
+
+@media (hover: hover) {
+    footer .social-net:hover {
+        transform: scale(1.2);
+    }
+}
+/* Mobile and Tablet Query */
+@media only screen and (max-width: 480px),
+only screen and (min-width: 481px) and (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+
+    .menu {
+        padding: 10px 0 0 0;
+    }
+
+    .menu a img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .menu nav {
+        float: none;
+        text-align: center;
+    }
+
+    .menu nav ul li {
+        margin-left: 0;
+    }
+
+    .menu nav ul li {
+        margin: 0;
+    }
+
+    .menu nav ul li a {
+        font-size: 0.6em;
+        transition: none;
+        line-height: 5em;
+        display: inline-block;
+        padding: 0 9px;
+    }
+
+    .about {
+        padding: 10px 0 20px 0;
+    }
+
+    .about header h1 {
+        font-size: 1.4em;
+        line-height: 1.8em;
+        letter-spacing: 0;
+    }
+
+    .about p {
+        font-size: 0.9em;
+        margin: 10px 0 0 0;
+    }
+
+    .about a {
+        width: 153px;
+        height: 50px;
+        border-radius: 25px;
+        font-size: 0.75em;
+        line-height: 4.1em;
+        margin: 29px 0 0 0;
+        transition: none;
+    }
+
+    .services {
+        padding: 20px 0 0 0;
+    }
+
+    .services header h2 {
+        font-size: 1.5em;
+        letter-spacing: 0;
+    }
+
+    .services header h3 {
+        font-size: 0.88em;
+        margin: 20px 0 0 0;
+    }
+
+    .services .service-container {
+        display: inline-block;
+        padding: 0;
+    }
+
+    .services .service-container .service {
+        float: none;
+        width: auto;
+        margin: 25px 10px;
+    }
+
+    .services .service-container .service h4 {
+        font-size: 0.88em;
+        letter-spacing: 0;
+        margin: 10px 0 0 0;
+    }
+
+    .services .service-container .service p {
+        max-width: 320px;
+    }
+
+    .relax {
+        background-position: 270px 0;
+    }
+
+    .relax .relax-content {
+        float: right;
+        padding: 20px;
+    }
+
+    .relax .relax-content header h2 {
+        font-size: 1.5em;
+    }
+
+    .relax .relax-content p {
+        font-size: 0.88em;
+        margin: 20px 0 0 0;
+    }
+
+    .relax .relax-content li {
+        font-size: 1em;
+    }
+
+    .relax a {
+        width: 153px;
+        height: 50px;
+        border-radius: 25px;
+        font-size: 0.88em;
+        line-height: 3.6em;
+        margin: 18px 0 0 0;
+        transition: none;
+    }
+
+    .last-project {
+        padding: 20px 10px;
+    }
+
+    .last-project header h2 {
+        font-size: 1.6em;
+        letter-spacing: 0;
+    }
+
+    .last-project header h3 {
+        font-size: 0.88em;
+        margin: 10px 0 0 0;
+    }
+
+    .last-project .last-project-container {
+        padding: 10px;
+    }
+
+    .last-project .last-project-container .last-project-description {
+        width: auto;
+    }
+
+    .last-project .last-project-container .last-project-img {
+        display: none
+    }
+
+    .last-project .last-project-container .last-project-description h4 {
+        font-size: 1em;
+        margin: 10px 0 0 0;
+        letter-spacing: 0;
+    }
+
+    .last-project .last-project-container .last-project-description h4+p,
+    .last-project .last-project-container .last-project-description ul+p {
+        font-size: 0.88em;
+        line-height: inherit;
+    }
+
+    .last-project .last-project-container .last-project-description ul li strong {
+        font-size: 1em;
+    }
+
+    .last-project .last-project-container .last-project-description ul li p {
+        font-size: 0.88em;
+    }
+
+    .last-project .last-project-container .last-project-description a {
+        font-size: 0.88em;
+        margin: 25px 0 0 0;
+        letter-spacing: 0;
+    }
+
+    .culture-and-values .culture-and-values-container .cross-line-left,
+    .culture-and-values .culture-and-values-container .cross-line-right {
+        display: none;
+    }
+
+    .culture-and-values {
+        padding: 20px 0 0 0;
+    }
+
+    .culture-and-values header h2 {
+        font-size: 1.6em;
+        letter-spacing: 0;
+    }
+
+    .culture-and-values header h3 {
+        font-size: 0.88em;
+        margin: 20px 0 0 0;
+    }
+
+    .culture-and-values .culture-and-values-container {
+        padding: 10px;
+    }
+
+    .culture-and-values .culture-and-values-container .culture-and-value {
+        width: auto;
+        margin: 20px;
+        float: none;
+    }
+
+    .culture-and-values .culture-and-values-container .culture-and-value h4 {
+        font-size: 1em;
+        letter-spacing: 0;
+        margin: 16px 0 0 0;
+    }
+
+    .culture-and-values .culture-and-values-container .culture-and-value p {
+        max-width: 320px;
+    }
+
+    .clients {
+        padding: 20px 0 0 0;
+    }
+
+    .clients .clients-container {
+        padding: 0;
+    }
+
+    .clients header h2 {
+        font-size: 1.66em;
+        letter-spacing: 0;
+    }
+
+    .clients header h3 {
+        font-size: 0.88em;
+        margin: 20px 0 0 0;
+    }
+
+    .clients .clients-container .client {
+        width: auto;
+    }
+
+    .clients .clients-container .client .client-image {
+        display: none;
+    }
+
+    .clients .clients-container .client .arrow {
+        display: none;
+    }
+
+    .clients .clients-container .client .client-comment {
+        float: none !important;
+        text-align: left;
+        padding: 20px !important;
+    }
+
+    .clients .clients-container .client .client-comment p:nth-child(1) {
+        font-size: 1em;
+    }
+    .clients .clients-container .client .client-comment p:nth-child(2) {
+        font-size: 0.88em;
+        line-height: 1.76em;
+    }
+
+    .contact-us {
+        padding: 20px;
+    }
+
+    .contact-us header h2 {
+        font-size: 1.38em;
+    }
+
+    .contact-us a {
+        width: 153px;
+        height: 50px;
+    }
+
+    .sponsors {
+        padding: 30px 0;
+    }
+
+    .sponsors a img {
+        margin: 18px;
+    }
+
+    .other-info {
+        padding: 10px;
+        background-color: #222;
+        display: block;
+    }
+
+    .other-info section header h2 {
+        font-size: 1.38em;
+    }
+
+    .other-info section div p, .other-info section div a {
+        font-size: 0.88em;
+    }
+
+    footer {
+        padding: 26px 0 26px 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    footer small {
+        margin: 0 0 14px 0;
+        display: block;
+    }
+}
+

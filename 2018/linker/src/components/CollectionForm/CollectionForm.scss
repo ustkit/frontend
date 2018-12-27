@@ -1,0 +1,176 @@
+.collection-form {
+  .collection-head, .collection-link {
+    position: relative;
+    padding: 35px 74px;
+    background-color: #e99191;
+    margin: 0 0 15px 0;
+
+    .collection-copy {
+      position: absolute;
+      right: 25px;
+      top: 40px;
+      cursor: pointer;
+    }
+  }
+
+  .collection-url {
+    font-size: 20px;
+    word-break: break-all;
+    height: 55px;
+    line-height: 46px;
+    a {
+      font-size: 20px;
+      word-break: break-all;
+      color: white;
+    }
+
+    .collection-url-clipboard {
+      display: inline-block;
+      margin: 0 0 0 10px;
+      img {
+        vertical-align: middle;
+      }
+    }
+  }
+
+  input[type=text] {
+    display: block;
+    height: 47px;
+    width: 100%;
+    background-color: #e99191;
+    border: 2px solid white;
+    padding: 11px 24px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #ffffff;
+    outline: none;
+    box-sizing: border-box;
+    margin: 0 0 34px 0;
+  }
+
+  textarea {
+    display: block;
+    height: 200px;
+    width: 100%;
+    background-color: #e99191;
+    border: 2px solid white;
+    padding: 11px 24px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #ffffff;
+    outline: none;
+    box-sizing: border-box;
+  }
+
+  input::placeholder, textarea::placeholder {
+    color: white;
+  }
+
+  .collection-link {
+    .collection-delete-link {
+      position: absolute;
+      right: 17px;
+      top: 34px;
+      cursor: pointer;
+    }
+  }
+
+  .collection-error-message {
+    background-color: #e99191;
+    height: 36px;
+    font-size: 20px;
+    line-height: 36px;
+    padding: 0 10px;
+    margin: 10px 0 0 0;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .collection-control {
+    height: 46px;
+    width: 100%;
+    padding: 0 0 15px 0;
+
+    div {
+      float: right;
+      margin: 6px 18px 0 0;
+      cursor: pointer;
+    }
+
+    button {
+      float: right;
+      width: 35%;
+      height: 46px;
+      margin: 0 0 0 26px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 1.4;
+    }
+
+    button:nth-child(1) {
+      background-color: #e99191;
+      color: white;
+    }
+
+    button:nth-child(2) {
+      background-color: white;
+      color: #e99191;
+    }
+  }
+}
+
+@media all and (max-width: 900px) {
+  .collection-form {
+    .collection-url {
+      font-size: 16px;
+
+      a {
+        font-size: 16px;
+      }
+    }
+
+    .collection-error-message {
+      font-size: 14px;
+    }
+
+    .collection-head, .collection-link {
+      padding: 20px 49px 20px 5%;
+    }
+
+    input[type=text], textarea {
+      font-size: 14px;
+      padding: 11px;
+    }
+
+    .collection-head {
+      .collection-copy {
+        top: 25px;
+        right: 8px;
+      }
+    }
+
+    .collection-link {
+      .collection-delete-link {
+        top: 20px;
+        right: 0;
+      }
+    }
+
+    .collection-control {
+      div {
+        margin: 6px 6px 0 0;
+      }
+
+      button {
+        font-size: 16px;
+        margin: 0 0 0 16px;
+      }
+    }
+  }
+}

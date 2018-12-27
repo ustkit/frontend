@@ -1,0 +1,16 @@
+{
+  "txtCollectionLink": "Collection link",
+  "txtCollectionName": "Collection name",
+  "txtDescription": "Description",
+  "txtLinkName": "Link name",
+  "txtLinkUrl": "URL",
+  "txtSaveCollection": "Save",
+  "txtDeleteCollection": "Delete",
+  "txtNewCollection": "New collection",
+  "txtSystemError": "Error. Contact your site administrator.",
+  "txtMakeDuplicateCollection": "Make a duplicate Collection",
+  "txtDeleteLink": "Delete link",
+  "txtAddLink": "Add link",
+  "txtLinkIsCopied": "Link is copied to clipboard",
+  "txtCopyCollectionLink": "Copy collection link to clipboard"
+}

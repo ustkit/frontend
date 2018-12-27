@@ -1,0 +1,153 @@
+.cabinet {
+  position: relative;
+
+  .header {
+    .header-link {
+      position: relative;
+      float: right;
+      margin: 51px 10% 0 0;
+      display: inline-block;
+      height: 24px;
+      width: 115px;
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 1.2;
+      text-align: right;
+      color: #ffffff;
+      cursor: pointer;
+
+      span > img {
+        position: absolute;
+        left: 9px;
+        top: 16px;
+      }
+
+      span > a {
+        color: white;
+      }
+    }
+
+    .header-link:hover .highlighting {
+      width: 115px;
+    }
+  }
+
+  .on-copy-link-flash {
+    position: fixed;
+    width: 310px;
+    padding: 10px;
+    text-align: center;
+    top: 30vh;
+    right: calc(50vw - 155px);
+    background-color: white;
+    color: black;
+    border: 1px solid #000011;
+    border-radius: 10px;
+    z-index: 1;
+    box-sizing: border-box;
+  }
+
+  .content {
+    margin: 0 0 0 calc(10% + 115px);
+    width: calc(80% - 228px);
+    color: white;
+
+    .content-menu {
+      font-size: 36px;
+      font-weight: bold;
+      margin: 0 0 20px 0;
+      white-space: nowrap;
+      line-height: 36px;
+
+      div {
+        display: inline-block;
+        background-color: #001;
+        border: none;
+        outline: none;
+        margin: 0 0 0 25px;
+        vertical-align: middle;
+        cursor: pointer;
+
+        img {
+          margin: 6px 0 0 0;
+        }
+      }
+    }
+
+    .collection-block {
+      position: relative;
+      background-color: #e99191;
+      margin: 0 0 30px 0;
+      padding: 29px 29px 9px 29px;
+      cursor: pointer;
+
+      .collection-name {
+        word-break: break-all;
+        padding: 0 45px 0 0;
+
+        a {
+          font-size: 20px;
+          font-weight: bold;
+          line-height: 1.2;
+          color: white;
+        }
+      }
+
+      .collection-url-clipboard {
+        position: absolute;
+        top: 35px;
+        right: 30px;
+      }
+
+      .collection-comment {
+        word-break: break-all;
+        font-size: 20px;
+        line-height: 1.4;
+        margin: 5px 0;
+      }
+
+      .collection-links {
+        height: 120px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+
+        div {
+          display: inline-block;
+          height: 90px;
+
+          img {
+            height: 90px;
+            padding: 5px 0 0 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 900px) {
+  .cabinet {
+    .content {
+      margin: 0 10%;
+      width: auto;
+
+      .content-menu {
+        font-size: 24px;
+      }
+
+      .collection-block {
+        padding: 19px 19px 9px 19px;
+
+        .collection-url-clipboard {
+          top: 20px;
+          right: 20px;
+        }
+
+        .collection-comment {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

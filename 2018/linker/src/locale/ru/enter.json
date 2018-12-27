@@ -1,0 +1,18 @@
+{
+  "txtEnter": "Вход",
+  "txtRegistration": "Регистрация",
+  "txtUserName": "E-mail",
+  "txtEmail": "E-mail",
+  "txtPassword": "Пароль",
+  "txtRepeatPassword": "Повторите пароль",
+  "txtButtonEnter": "Войти",
+  "txtButtonRegistration": "Создать аккаунт",
+  "txtInvalidEmail": "Неправильный формат e-mail",
+  "txtEmptyPassword": "Не указан пароль",
+  "txtEmptyUserName": "Не указан логин и e-mail",
+  "txtNoMatchPassword": "Пароли не совпадают",
+  "txtWait": "Ожидайте...",
+  "txtFailEnter": ["Неверные e-mail и/или пароль"],
+  "txtSystemError": "Ошибка. Обратитесь к администратору сайта.",
+  "txtFailReg": ["Неправильный формат e-mail", "Такой e-mail уже есть", "Пароли не совпадают", "Слишком короткий пароль(минимум 6 символов)"]
+}

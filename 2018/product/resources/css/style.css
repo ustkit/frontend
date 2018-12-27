@@ -1,0 +1,500 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial sans-serif;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.menu {
+
+}
+
+.product-header {
+    background-color: #445162;
+    padding: 38px 50px 0 46px;
+}
+
+.product-header div:first-child {
+    float: left;
+}
+
+.product-header div:first-child h1 {
+    color:  #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.product-header div:first-child ul {
+    margin: 29px 0 0 38px;
+    list-style-image: url(../images/check-icon.png);
+    color:  #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.product-header div:first-child ul li {
+    padding-left: 3px;
+}
+.product-header div:last-child {
+    float: right;
+    background-position: 150px 40px;
+    background-image: url(../images/apple-logo.png);
+    background-size: 170px 170px;
+    background-repeat: no-repeat;
+}
+.product-header img {
+    margin: 10px 0 0 0;
+    width: 469px;
+}
+
+.product-header:after { content: " "; display: block; clear: both }
+
+.product-about {
+    margin: 43px 0 0 0;
+    padding: 0 50px 0 50px;
+}
+
+.product-about div {
+    float: left;
+    width: 653px;
+    text-align: left;
+}
+
+.product-about div h2 {
+    color:  #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.product-about div p {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.product-about div p:nth-child(2) {
+    margin: 23px 0 0 0;
+}
+
+.product-about div p:nth-child(3) {
+    margin: 11px 0 0 0;
+}
+
+.product-about video {
+    width: 430px;
+    height: 243px;
+    float: right;
+    margin: 7px 0 0 0;
+}
+
+.product-about:after { content: " "; display: block; clear: both }
+
+.product-dignity {
+    margin: 48px 0 0 0;
+    padding: 46px 50px 46px 50px;
+    background-color: #f5f5f5;
+}
+
+.product-dignity h2 {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.product-dignity > div:nth-child(odd) {
+    width: 50%;
+    float: left;
+    margin: 21px 0 5px 0;
+}
+
+.product-dignity > div:nth-child(even) {
+    width: 50%;
+    float: right;
+    margin: 21px 0 5px 0;
+
+}
+
+.product-dignity div img {
+    float: left;
+    margin: 6px 9px 0 0;
+}
+
+.product-dignity div p {
+    overflow: hidden;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.product-dignity:after { content: " "; display: block; clear: both }
+
+.product-scrinshots {
+    padding: 42px 50px 0 50px;
+}
+
+.product-scrinshots h2 {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.product-scrinshots div {
+    width: 579px;
+    margin: 22px 11px 0 0;
+}
+
+.product-scrinshots div:nth-child(odd) {
+    float: left;
+}
+
+.product-scrinshots div:nth-child(even) {
+    float: right;
+}
+
+.product-scrinshots div img {
+    float: left;
+    margin: 6px 15px 0 0;
+    height: 150px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background: linear-gradient(225deg, #fff, #000);
+}
+
+.product-scrinshots div h3 {
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+.product-scrinshots div p {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 7px;
+}
+
+.product-scrinshots:after { content: " "; display: block; clear: both }
+
+.reviews {
+    margin: 49px 0 0 0;
+    padding: 45px;
+    background-color: #f5f5f5;
+
+}
+.reviews h2 {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.reviews > div {
+    margin: 27px 7px 0 0;
+}
+
+.reviews > div:nth-child(even) {
+    float: left;
+}
+
+.reviews > div:nth-child(odd) {
+    float: right;
+}
+
+.reviews div > img,
+.reviews div > .user-photo
+{
+    float: left;
+    margin-right: 15px;
+    margin-left: 5px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+}
+
+.reviews div > .user-photo svg {
+    width: 75px;
+    height: 75px;
+}
+
+.reviews div > .arrow-left {
+    float: left;
+    margin-top: 25px;
+    width: 0;
+    height: 0;
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+    border-right: 14px solid #ececec;
+    background-color: transparent;
+}
+
+.reviews > div > div {
+    float: left;
+    background-color: #ececec;
+    border-radius: 5px;
+    width: 468px;
+    height: 121px;
+}
+
+.reviews > div > div p:first-child {
+    color: #333333;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 18px;
+    text-align: left;
+    margin-top: 12px;
+    margin-left: 14px;
+
+}
+
+.reviews > div > div p:last-child {
+    color: #989898;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    margin-top: 9px;
+    margin-left: 15px;
+}
+
+.reviews:after { content: " "; display: block; clear: both }
+
+.buy {
+    margin-top: 50px;
+}
+
+.buy header h1 {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.buy .prices {
+    padding: 26px 0 0 139px;
+    height: 499px;
+}
+
+.buy .prices .price:nth-child(1) {
+    margin-top: 193px;
+}
+
+.buy .prices .price:nth-child(2) {
+    margin-top: 95px;
+}
+
+.buy .price {
+    float: left;
+    width: 300px;
+    background-color: #425062;
+    border: 2px solid #425062;
+    border-radius: 5px;
+    margin: 0 40px 0 5px;
+    box-sizing: border-box;
+}
+
+.buy .price p:nth-child(1) {
+    height: 54px;
+    color:  #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 51px;
+}
+
+.buy .price p:nth-child(2) {
+    height: 65px;
+    color: #445162;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    background-color: white;
+    line-height: 65px;
+}
+
+.buy .price ol {
+    margin: 15px 0 0 20px;
+    list-style: decimal inside;
+    padding-bottom: 16px;
+}
+.buy .price ol li {
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.buy .price button {
+    margin: 0 0 17px 17px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 263px;
+    height: 42px;
+    color: #445161;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    outline: none;
+    transition: 600ms;
+}
+
+.buy .price button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.buy:after { content: " "; display: block; clear: both }
+
+.contacts {
+    background-color: #445162;
+    margin: 44px 0 0 0;
+    padding: 50px 240px 45px 240px;
+}
+
+.contacts header h1 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.contacts > div:nth-child(2) {
+    float: left;
+    margin: 23px 0 0 9px;
+}
+
+.contacts > div:nth-child(3) {
+    float: left;
+    margin: 25px 0 0 45px;
+}
+
+.contacts > div:nth-child(2) form * {
+    display: block;
+    width: 477px;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.contacts > div:nth-child(2) form label {
+    color: #fff;
+    cursor: pointer;
+}
+
+.contacts > div:nth-child(2) form datalist {
+    height: 0;
+}
+
+.contacts > div:nth-child(2) form textarea {
+    margin: 0 0 18px 0;
+    height: 150px !important;
+    font-size: 17px !important;
+}
+
+.contacts > div:nth-child(2) form input[type=submit] {
+    width: 142px !important;
+    height: 46px !important;
+    margin: 0 0 0 180px;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: white;
+    transition: 600ms;
+}
+
+.contacts > div:nth-child(2) form input[type=submit]:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.contacts > div:nth-child(3) .social-net {
+    float: left;
+    width: 42px;
+    height: 42px;
+    border-radius: 21px;
+    background-color: white;
+    margin: 13px 7px 0 0;
+    transition: 600ms;
+    font-family: "FontAwesome";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 43px;
+    color: #445162;
+    text-align: center;
+}
+
+.contacts > div:nth-child(3) .social-net:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.contacts > div:nth-child(3) a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.contacts > div:nth-child(3) a p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding: 2px 0 17px 0;
+}
+
+.contacts > div:nth-child(3) a p img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.contacts:after { content: " "; display: block; clear: both }
+
+footer {
+    margin: 3px 0 0 0;
+}
+
+footer p {
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+footer p small {
+    color: #445162;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+}

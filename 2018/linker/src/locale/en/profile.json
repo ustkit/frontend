@@ -1,0 +1,10 @@
+{
+  "txtSuccessfulChangePassword": "Password successfully changed",
+  "txtFailChangePassword": "Password not changed",
+  "txtTitle": "Password setting",
+  "txtCurrentPassword": "Old password",
+  "txtNewPasswordFirst": "New password",
+  "txtNewPasswordSecond": "New password again",
+  "txtChangePassword": "Change password",
+  "txtLogout": "Log out"
+}
