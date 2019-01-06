@@ -1,0 +1,458 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Noto+Sans");
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+header {
+    background-image: url("../images/bg-header.png");
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.75);
+    background-size: cover;
+    background-blend-mode: color-burn;
+    padding: 30px 0 135px 0;
+}
+
+.navbar-header .navbar-brand {
+    font-family: "Pacifico", sans-serif;
+    font-size: 40px;
+    line-height: 19px;
+    color: #ffffff;
+    margin: 0 auto !important;
+}
+
+.navbar-header .navbar-toggle {
+    border: 2px solid #fff;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    color: #ee2f1b;
+    background-color: transparent;
+}
+
+header .header-content h1 {
+    font-size: 50px;
+    letter-spacing: -2px;
+    line-height: 64px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 5vh;
+}
+
+header .header-content hr {
+    border-color: #35c2f8;
+    width: 110px;
+    margin-top: 40px;
+}
+
+header .header-content p {
+    margin-top: 45px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ccc;
+    font-family: "Noto Sans", sans-serif;
+}
+
+@media (min-width: 992px) {
+    .pull-md-right {
+        float: right !important;
+    }
+}
+
+.section-title h2 {
+    font-size: 40px;
+    letter-spacing: -1px;
+    line-height: 75px;
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.section-title hr {
+    border-color: #35c2f8;
+    width: 110px;
+    margin-top: 18px;
+}
+
+.core-services {
+    background-color: white;
+    padding: 3vh 0;
+}
+
+.core-services .core-services-content {
+    margin-top: 5vh;
+}
+
+.core-services .core-services-content div {
+    margin-bottom: 10vh;
+}
+
+.core-services .core-services-content div h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 40px;
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+}
+
+.core-services .core-services-content div p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #888;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.other-expertise {
+    background: #f7f7f7;
+}
+
+@media (min-width: 992px) {
+    .other-expertise {
+        background: #f7f7f7 url("../images/bg-os.png") no-repeat 750px top;
+    }
+}
+
+@media (min-width: 1200px) {
+    .other-expertise {
+        background: #f7f7f7 url("../images/bg-os.png") no-repeat 950px top;
+    }
+}
+
+.other-expertise {
+    padding: 5vh 0;
+}
+
+.other-expertise .other-expertise-title {
+    margin-bottom: 56px;
+}
+
+.other-expertise .other-expertise-title h2 {
+    font-size: 40px;
+    letter-spacing: -2px;
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.other-expertise .other-expertise-title p {
+    margin-top: 36px;
+    font-size: 16px;
+    color: #777;
+    font-family: "Noto Sans", sans-serif;
+    overflow: hidden;
+}
+
+.other-expertise-description {
+    margin: 0 0 32px 16px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.other-expertise-description p:first-child {
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.other-expertise-description p:last-child {
+    color: #777;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.other-expertise .btn-learn-more {
+    width: 168px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 43px;
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+    outline: none;
+}
+
+.other-expertise .btn-learn-more:focus {
+    outline: none;
+}
+
+.amazing-portfolio {
+    padding: 5vh 0;
+}
+
+@media (min-width: 992px) {
+    .amazing-portfolio {
+        background: #fff url("../images/ipad-air.png") no-repeat 550px top;
+    }
+}
+
+@media (min-width: 1200px) {
+    .amazing-portfolio {
+        background: #fff url("../images/ipad-air.png") no-repeat 650px top;
+    }
+}
+
+.amazing-portfolio .amazing-portfolio-title {
+    padding-bottom: 41px;
+}
+
+.amazing-portfolio .amazing-portfolio-title h2 {
+    font-size: 40px;
+    letter-spacing: -2px;
+    line-height: 75px;
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.amazing-portfolio .amazing-portfolio-title p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #777;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.amazing-portfolio-description {
+    padding-bottom: 31px;
+    margin: 0 0 0 16px;
+}
+
+.amazing-portfolio-description p:first-child {
+    font-size: 16px;
+    line-height: 22px;
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+}
+
+.amazing-portfolio-description p:last-child {
+    font-size: 14px;
+    line-height: 22px;
+    color: #777;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.images .container-fluid {
+    padding: 0 !important;
+}
+
+.about-us {
+    background-color: white;
+    padding: 3vh 0;
+}
+
+.about-us .about-us-events {
+    margin-bottom: 7vh;
+}
+
+.about-us .section-title {
+    margin-bottom: 10vh;
+}
+
+.about-us .about-us-description p:first-child {
+    font-size: 16px;
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+}
+
+.about-us .about-us-description p:last-child {
+    font-size: 14px;
+    color: #777;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.about-us .about-us-image {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 6px solid #f1f1f1;
+    background-size: cover;
+}
+
+.about-us .about-us-image-1 {
+    background-image: url("../images/about-us-1.png");
+}
+
+.about-us .about-us-image-2 {
+    background-image: url("../images/about-us-2.png");
+}
+
+.about-us .about-us-image-3 {
+    background-image: url("../images/about-us-3.png");
+}
+
+.about-us .about-us-image-4 {
+    background-image: url("../images/about-us-4.png");
+}
+
+.about-us .about-us-image img {
+    border: 6px solid #f1f1f1;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+}
+
+@media (max-width: 767px) {
+    .about-us .about-us-image {
+        display: none;
+    }
+}
+
+.awesome-team {
+    background-color: #f7f7f7;
+    padding: 3vh 0 10vh 0;
+}
+
+.awesome-team .section-title {
+    margin-bottom: 5vh;
+}
+
+.awesome-team .awesome-team-img {
+    width: 221px;
+    height: 221px;
+    border: 7px solid #fff;
+    border-radius: 50%;
+}
+
+.awesome-team-person {
+    margin-bottom: 64px;
+}
+
+.awesome-team .awesome-team-person p {
+    color: #222;
+}
+
+.awesome-team .awesome-team-person p:nth-child(2) {
+    font-size: 16px;
+    margin-top: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.awesome-team .awesome-team-person p:nth-child(3) {
+    font-size: 14px;
+    font-family: "Noto Sans", sans-serif;
+    margin-bottom: 12px;
+}
+
+.social-net {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    border-radius: 21px;
+    background-color: black;
+    margin: 0 4px 4px 0;
+    font-family: "FontAwesome", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 43px;
+    color: white;
+    text-align: center;
+}
+
+.awesome-team .awesome-team-footer div {
+    font-size: 16px;
+    line-height: 20px;
+    color: #777;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.contact-us {
+    background-color: #111;
+    padding: 3vh 0 62px 0;
+    color: white;
+}
+
+.contact-us h2 {
+    font-size: 40px;
+    letter-spacing: -1px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contact-us h2 ~ p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    font-family: "Noto Sans", sans-serif;
+    margin: 33px 0 54px 0;
+}
+
+.contact-us .contact-item {
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: #fff;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.contact-us .contact-form input {
+    height: 51px;
+    margin-top: 28px;
+}
+
+.contact-us .contact-form textarea {
+    height: 185px;
+    margin-top: 20px;
+}
+
+.contact-us .contact-form button {
+    margin-top: 21px;
+    width: 186px;
+    height: 58px;
+    border-radius: 29px;
+    background-color: #35c2f8;
+    font-size: 15px;
+    line-height: 43px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+    text-transform: uppercase;
+    outline: none;
+}
+
+.contact-us .contact-form button:focus {
+    outline: none;
+}
+
+footer {
+    padding: 0 0 32px 0;
+    background-color: #111;
+    color: white;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+footer hr {
+    max-width: 940px;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 32px;
+}
